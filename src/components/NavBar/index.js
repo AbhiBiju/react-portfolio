@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-function Navbar({ currentPage, handlePageChange }) {
+function Navbar() {
   const tabs = ["Home", "Resume", "About", "Projects", "Contact"];
+
+  const [currentPage, setCurrentPage] = useState(() => {
+    return window.location.pathname;
+  });
+
   return (
     <nav className="lg:flex grid grid-cols-3 sm:pr-2">
       {tabs.map((tab) => (
-        <a
+        <Link
           key={tab}
-          href={"#" + tab.toLowerCase()}
-          onClick={() => handlePageChange(tab)}
+          to={tab === "Home" ? "/" : "/" + tab.toLowerCase()}
+          onClick={() => setCurrentPage(tab)}
           className={
             (currentPage === tab
               ? "bg-blue-500 hover:text-white hover:bg-blue-600"
@@ -17,7 +23,7 @@ function Navbar({ currentPage, handlePageChange }) {
           }
         >
           {tab}
-        </a>
+        </Link>
       ))}
     </nav>
   );

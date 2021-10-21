@@ -11,7 +11,7 @@ function Home() {
           Here's More{" "}
           <a
             className="cursor-pointer filter brightness-100 transition-all duration-500 bg-size-200 bg-gradient-to-t bg-pos-0 hover:bg-pos-100 bg-clip-text from-pink-500 via-red-500 to-yellow-400 text-transparent"
-            href="#about"
+            href="/about"
           >
             About Me
           </a>
