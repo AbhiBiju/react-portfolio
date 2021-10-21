@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Header, NavBar, Home, About, Projects, Contact, Footer } from "./components";
 
 function App() {
+  const [currentPage, handlePageChange] = useState("Home");
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case "Home":
+        return <Home />;
+      case "About":
+        return <About />;
+      case "Projects":
+        return <Projects />;
+      case "Contact":
+        return <Contact />;
+      default:
+        return <Home />;
+    }
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="p-24 transition duration-300 shadow-lg rounded-blob absolute transform -translate-x-10 -translate-y-20 lg:-translate-y-10 bg-gradient-to-t from-red-500 via-green-400 to-blue-900"></div>
+      <div className="flex items-center mb-16 justify-between">
+        <Header />
+        <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
+      <div>{renderPage()}</div>
+      <Footer />
     </div>
   );
 }
