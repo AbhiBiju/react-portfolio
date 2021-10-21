@@ -14,7 +14,7 @@ function Header() {
       </a>
       <a href="/">
         <h1 className="relative cursor-pointer flex font-black px-2 group">
-          <span className="text-red-700 text-xl pr-1 lg:text-2xl">&#123; </span>
+          <span className="text-red-500 text-xl pr-1 lg:text-2xl">&#123; </span>
           <span className="flex group-hover:animate-pulse-fast">
             <span className="text-gray-800 text-xl lg:text-2xl">Abhi</span>
             <span className="text-xl hidden lg:block lg:text-2xl">
@@ -24,7 +24,7 @@ function Header() {
               </span>
             </span>
           </span>
-          <span className="text-red-700 text-xl pl-1 lg:text-2xl">&#125;</span>
+          <span className="text-red-500 text-xl pl-1 lg:text-2xl">&#125;</span>
         </h1>
       </a>
     </header>

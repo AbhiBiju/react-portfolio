@@ -5,6 +5,7 @@ function App() {
   const [currentPage, handlePageChange] = useState("Home");
 
   const renderPage = () => {
+
     switch (currentPage) {
       case "Home":
         return <Home />;
@@ -15,14 +16,14 @@ function App() {
       case "Contact":
         return <Contact />;
       default:
-        return <Home />;
+        return currentPage;
     }
   };
 
   return (
     <div className="App">
-      <div className="p-24 transition duration-300 shadow-lg rounded-blob absolute transform -translate-x-10 -translate-y-20 lg:-translate-y-10 bg-gradient-to-t from-red-500 via-green-400 to-blue-900"></div>
-      <div className="flex items-center mb-16 justify-between">
+      <div className="p-24 transition duration-300 shadow-lg rounded-blob absolute transform -translate-x-5 -translate-y-20 lg:-translate-x-10 lg:-translate-y-10 bg-gradient-to-b from-red-500 via-green-400 to-blue-900"></div>
+      <div className="flex items-center lg:mb-20 justify-between">
         <Header />
         <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ProjectTemplate() {
+function ProjectTemplate({project}) {
   return (
-    <div>
-      
+    <div className="rounded-xl bg-green-500 w-1/2">
+      {project.name}
     </div>
   )
 }
