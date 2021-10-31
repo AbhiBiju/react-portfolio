@@ -2,9 +2,16 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
+    <div className='text-center'>
+      <h2 className='text-3xl'>About Page</h2>
+      <p className='w-2/3 mx-auto my-4 text-2xl'>
+        I am currently a student taking the Full Stack Coding Bootcamp at University of Miami. After the completion of
+        this course I will have the practical and technical skills needed to build robust web applications. I am
+        passionate about computers and always striving to further my knowledge of the science and technology which makes
+        them function.
+      </p>
     </div>
-  )
+  );
 }
 
 export default About

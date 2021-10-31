@@ -1,40 +1,71 @@
 [
   {
     "id": "0",
-    "img": "",
-    "name": "Cuckoo's Library",
-    "desc": "",
-    "repo": "https://cuckoos-library.netlify.app/",
-    "deployed": "https://github.com/AbhiBiju/Cuckoos-Library"
+    "img": "https://media.giphy.com/media/6AOOs9n336HuVgSDCx/source.gif",
+    "title": "Employee Manager",
+    "desc": "Employee Manager App connected to a MySQL database which can be used to manage and track employee of a certain company. It utilizes node.js and sql in order to handle and store the employee data and can take in user input to add, update and remove employees, roles, and departments as needed.",
+    "repo": "https://github.com/AbhiBiju/employee-tracker"
   },
   {
     "id": "1",
-    "img": "",
-    "name": "BookMe",
-    "desc": "",
-    "repo": "https://book-me-site.herokuapp.com/",
-    "deployed": "https://github.com/AbhiBiju/um-project-2"
-  },
-  {
-    "id": "2",
-    "img": "",
-    "name": "Weather Dashboard",
-    "desc": "",
-    "repo": "https://abhibiju.github.io/Weather-Dashboard/",
-    "deployed": "https://github.com/AbhiBiju/Weather-Dashboard"
-  },
-  {
-    "id": "3",
-    "img": "",
-    "name": "Team Page Generator",
+    "img": "https://media.giphy.com/media/oy1iLfTiUmPNSobjj0/source.gif",
+    "title": "Team Page Generator",
     "desc": "",
     "repo": "",
     "deployed": ""
   },
   {
+    "id": "2",
+    "img": "https://media.giphy.com/media/6bo0GjFZbQ0R9L6LNg/source.gif",
+    "title": "Music Visualizer",
+    "desc": "Played around with the Web Audio API and the P5.js Library to create an audio visualization. The Site can play local audio files from the User's computer and create visualizations based on the amplitude through the Fast Fourier Transform (FFT) algorithm which analyzes and parses the waveform info provided by the AnalyzerNode interface of JavaScript. For more information, see https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode",
+    "repo": "https://github.com/AbhiBiju/music-visualizer",
+    "deployed": "https://abhibiju.github.io/music-visualizer/"
+  },
+  {
+    "id": "3",
+    "img": "https://media.giphy.com/media/dCTOZPQjUyPmQtDGb7/source.gif",
+    "title": "Hulu Clone",
+    "desc": "Front-End design for hulu webpage using Next.js which dynamically renders movie images and info separated by genre",
+    "repo": "https://github.com/AbhiBiju/hulu-clone",
+    "deployed": "https://hulu-clone-abhi.vercel.app/"
+  },
+  {
     "id": "4",
+    "img": "https://media.giphy.com/media/pJl9WXdLCpRzKuY0Qs/source.gif",
+    "title": "Weather Dashboard",
+    "desc": "A weather app using OpenWeatherMap API, jQuery, and Bootstrap to dynamically present the current and future weather for any specified city.",
+    "repo": "https://github.com/AbhiBiju/Weather-Dashboard",
+    "deployed": "https://abhibiju.github.io/Weather-Dashboard/"
+  },
+  {
+    "id": "5",
+    "img": "https://media.giphy.com/media/e9EOaM35DlNfXDrPPq/source.gif",
+    "title": "Cuckoo's Library",
+    "desc": "A Front End Web App. Find books by Title, Author, and Genre and save the ones you prefer! An interactive site, developed using the Bulma CSS Framework and JavaScript. Utilizing the Google Books & Giphy APIs to gather and present book data and media.",
+    "repo": "https://github.com/AbhiBiju/Cuckoos-Library",
+    "deployed": "https://cuckoos-library.netlify.app/"
+  },
+  {
+    "id": "6",
+    "img": "https://media.giphy.com/media/qlARoS9LKKXPP9et9x/source.gif",
+    "title": "BookMe",
+    "desc": "A Social Book Club App built using Node.js, Express, Sequelize, Handlebars, and TailwindCSS where Users can read about books others have posted, or login to post their own book reviews and book sale posts.",
+    "repo": "https://github.com/AbhiBiju/um-project-2",
+    "deployed": "https://book-me-site.herokuapp.com/"
+  },
+  {
+    "id": "7",
     "img": "",
-    "name": "",
+    "title": "",
+    "desc": "",
+    "repo": "",
+    "deployed": ""
+  },
+  {
+    "id": "8",
+    "img": "",
+    "title": "",
     "desc": "",
     "repo": "",
     "deployed": ""

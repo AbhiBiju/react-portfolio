@@ -1,18 +1,19 @@
-import img from "../../imgs/code-logo-2.svg";
-
 import React from "react";
+import { Link } from "react-router-dom";
+
+import img from "../../imgs/code-logo-2.svg";
 
 function Header() {
   return (
     <header className="w-1/2 flex items-center py-5 px-2">
-      <a href="/">
+      <Link to="/">
         <img
           src={img}
           className="w-14 transition duration-500 transform cursor-pointer hover:rotate-12 hover:scale-125"
           alt="logo"
         />
-      </a>
-      <a href="/">
+      </Link>
+      <Link to="/">
         <h1 className="relative cursor-pointer flex font-black px-2 group">
           <span className="text-red-500 text-xl pr-1 lg:text-2xl">&#123; </span>
           <span className="flex group-hover:animate-pulse-fast">
@@ -26,7 +27,7 @@ function Header() {
           </span>
           <span className="text-red-500 text-xl pl-1 lg:text-2xl">&#125;</span>
         </h1>
-      </a>
+      </Link>
     </header>
   );
 }

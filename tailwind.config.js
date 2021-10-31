@@ -10,16 +10,36 @@ module.exports = {
         "pos-0": "0% 0%",
         "pos-100": "100% 100%",
       },
+      borderWidth: {
+        3: "3px",
+      },
+      boxShadow: {
+        glowGreen: "0 0 5px 1px hsl(126, 100%, 48%)",
+        glowBlue: "0 0 5px 1px hsl(210, 100%, 48%)",
+        glowPurp: "0 0 5px 1px hsl(272, 100%, 48%)",
+      },
       keyframes: {
         gradient: {
           "0%": { backgroundPosition: "0% 50%" },
           "50%": { backgroundPosition: "100% 50%" },
           "100%": { backgroundPosition: "0% 50%" },
         },
+        vibe: {
+          "0%": {},
+          "50%": { backgroundColor: "hsl(126, 100%, 48%)" },
+          "100%": {},
+        },
+        liquid: {
+          "0%": { transform: "rotate(0deg)" },
+          "50%": { backgroundColor: "hsl(126, 100%, 48%)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
       },
       animation: {
         "pulse-fast": "pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         gradient: "gradient 5s ease-in-out infinite",
+        vibe: "vibe 3000ms linear infinite",
+        liquid: "liquid 3000ms linear infinite",
       },
       rotate: {
         360: "360deg",
@@ -32,8 +52,11 @@ module.exports = {
   variants: {
     extend: {
       filter: ["hover"],
-      backgroundPosition: ["hover"],
-      animation: ["group-hover, hover"],
+      backgroundColor: ["active"],
+      boxShadow:["active", "hover"],
+      borderWidth: ["hover", "focus", "active"],
+      backgroundPosition: ["group-hover", "hover"],
+      animation: ["group-hover", "hover"],
     },
   },
   plugins: [],

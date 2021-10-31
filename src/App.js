@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Header, NavBar, Home, About, Projects, Contact, Footer } from "./components";
+import { Header, NavBar, Resume, Home, About, Projects, Contact, Footer } from "./components";
 
 function App() {
   return (
@@ -22,7 +22,10 @@ function App() {
             <Route path="/contact">
               <Contact />
             </Route>
-            <Route path="/">
+            <Route path="/resume">
+              <Resume />
+            </Route>
+            <Route exact path="/">
               <Home />
             </Route>
           </Switch>
