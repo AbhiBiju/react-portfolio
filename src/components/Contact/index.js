@@ -42,7 +42,7 @@ function Contact() {
 
   return (
     <div className='mb-10'>
-      <form className="flex flex-col w-1/3 mx-auto" onSubmit={handleSubmit} netlify>
+      <form name='contact' className="flex flex-col w-1/3 mx-auto" onSubmit={handleSubmit} netlify>
         <label htmlFor="name">Name</label>
         <input
           className="transition duration-200 shadow-sm hover:border-blue-500 focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full h-8 p-2 sm:text-sm border border-blue-300 rounded-md"
