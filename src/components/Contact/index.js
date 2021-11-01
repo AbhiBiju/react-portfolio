@@ -41,7 +41,7 @@ function Contact() {
   };
 
   return (
-    <div>
+    <div className='mb-10'>
       <form className="flex flex-col w-1/3 mx-auto" onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
         <input
@@ -105,7 +105,7 @@ function Contact() {
           LinkedIn
         </a>
       </div>
-      <div className="flex flex-col text-center my-5">
+      <div className="flex flex-col text-center">
         <h2>My Contact Info</h2>
         <div>
           <p>Email: abhinavbiju29@gmail.com</p>
