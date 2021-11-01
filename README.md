@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+
+- [Description](#description)
+- [Deployment](#deployment)
+- [Available Scripts](#available-scripts)
+- [Learn more](#learn-more)
+- [License](#license)
+- [Contributing](#contributing)
+- [Questions](#questions)
+
+## Description
+
+This portfolio was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Using TailwindCSS for styling and Netlify for deployment. This portfolio hosts my personal resume and information about my projects and applications.
+
+## Deployment
+
+[Click here to view the deployed app](https://abhibiju.netlify.app/)
 
 ## Available Scripts
 
@@ -61,10 +77,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## License
+
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) License
+
+## Contributing
+
+There are many ways in which you can contribute, beyond writing code. If you have any questions or concerns, please email at abhinavbiju29@gmail.com. If you find any reproduceable problems with the generator, please report/file an issue. Thank you for contributing!
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact me directly at abhinavbiju29@gmail.com. You can find more of my work at [AbhiBiju](https://github.com/AbhiBiju).
