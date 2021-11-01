@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      listStyleType: {
+        square: "square",
+      },
       backgroundSize: {
         "size-200": "200% 200%",
       },
@@ -17,6 +20,7 @@ module.exports = {
         glowGreen: "0 0 5px 1px hsl(126, 100%, 48%)",
         glowBlue: "0 0 5px 1px hsl(210, 100%, 48%)",
         glowPurp: "0 0 5px 1px hsl(272, 100%, 48%)",
+        fade: "inset 0 0 50px 5px black",
       },
       keyframes: {
         gradient: {
@@ -53,7 +57,7 @@ module.exports = {
     extend: {
       filter: ["hover"],
       backgroundColor: ["active"],
-      boxShadow:["active", "hover"],
+      boxShadow: ["active", "hover"],
       borderWidth: ["hover", "focus", "active"],
       backgroundPosition: ["group-hover", "hover"],
       animation: ["group-hover", "hover"],
