@@ -18,6 +18,10 @@ This portfolio was bootstrapped with [Create React App](https://github.com/faceb
 
 [Click here to view the deployed app](https://abhibiju.netlify.app/)
 
+Here is a snapshot of the application:
+
+<img width="1292" alt="Screen Shot 2021-10-31 at 10 47 06 PM" src="https://user-images.githubusercontent.com/83188832/139615402-6d1a2d02-841d-4b15-a63b-a60908a4f092.png">
+
 ## Available Scripts
 
 In the project directory, you can run:
