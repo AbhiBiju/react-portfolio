@@ -7,8 +7,6 @@ function ProgressCard({ percent, projects, label, color }) {
     setValue(percent);
   }, [percent]);
 
-  console.log(projects)
-
   return (
     <div className="w-80 my-5 p-5 bg-gradient-to-b from-green-100 to-green-500 hover:from-green-300 hover:to-green-600 rounded-lg transition-all duration-300 transform hover:scale-105 mx-auto">
       <div className="mx-4">{label}</div>
