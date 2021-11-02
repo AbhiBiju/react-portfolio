@@ -7,14 +7,14 @@ function Resume() {
   return (
     <div className="w-full mt-5 pb-20">
       <a href={pdf} target="_blank" rel="noreferrer">
-        <div className="mx-auto text-center font-bold bg-gradient-to-b from-blue-500 to-blue-700 hover:shadow-xl transition duration-300 transform hover:scale-105 py-2 rounded-lg w-40">
+        <div className="mx-auto text-center font-bold bg-gradient-to-bl from-green-500 to-blue-500 hover:shadow-xl transition duration-300 transform hover:scale-105 py-2 rounded-lg w-40">
           Download My{" "}
-          <span className="text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+          <span className="text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
             Resume
           </span>
         </div>
       </a>
-      <div className="grid grid-cols-1 sm:grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-2">
         <ProgressCard
           label={"jQuery"}
           percent={80}
